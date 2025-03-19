@@ -53,7 +53,7 @@ const ProjectsCard = () => {
         return () => ScrollTrigger.killAll();
     }, []);
     return (
-        <section id="projects" className="ml-[10vw] flex items-center justify-start gap-[14vw] mt-[45vh] relative">
+        <section id="projects" className="ml-[10vw] flex items-center justify-start gap-[14vw] mt-[45vh] relative mb-[30vh]">
             <div className="slideLeft">
                 <Project/>
             </div>
