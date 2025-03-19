@@ -12,7 +12,7 @@ const Blackhole = () => {
             x:0,
             y:0,
             opacity:1,
-            duration:1,
+            duration:2.5,
         })
     }, []);
     return (
