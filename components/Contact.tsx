@@ -21,13 +21,13 @@ const Contact = () => {
         },{
             y: 550,
             x: '-50vw',
-            scale:0.6,
+            scale:0.7,
             opacity: 1,
             scrollTrigger: {
                 trigger:'.slide-left-2',
                 start: "top center",
                 end: "90% 90%",
-                scrub: 3,
+                scrub: 5,
             },
         });
         gsap.fromTo('.bh', {
@@ -42,7 +42,7 @@ const Contact = () => {
                 trigger:'.slide-left-2',
                 start: "top center",
                 end: "bottom 90%",
-                scrub: 3,
+                scrub: 1,
             },
         });
         gsap.to(cardRef.current, {
