@@ -7,10 +7,10 @@ gsap.registerPlugin(ScrollTrigger)
 function SmoothScroll({children}: PropsWithChildren<{}>) {
     return (
         <ReactLenis root options={{
-            duration:3,
+            duration:1.5,
             lerp:0.06,
             touchInertiaMultiplier:0.7,
-            wheelMultiplier:0.8,
+            wheelMultiplier:0.6,
             syncTouch:true,
             touchMultiplier:2.4,
             anchors:true,
