@@ -17,8 +17,8 @@ const Blackhole = () => {
     }, []);
     return (
         <div
-            className="bh fixed -top-[24%] opacity-70 left-1/2 -translate-x-1/2 w-[60vw]
-            max-md:-top-10 mix-blend-lighten z-40
+            className="bh fixed -top-[24%] opacity-70 left-1/2 -translate-x-1/2 w-[60vw] max-md:w-[90vw]
+            max-md:-top-3 max-md:left-1/14 mix-blend-lighten z-40
             ">
             <video className="z-40 object-cover" autoPlay loop muted>
                 <source src="/videos/blackhole.webm" type="video/webm"/>

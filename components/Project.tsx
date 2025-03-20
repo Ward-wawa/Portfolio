@@ -7,8 +7,8 @@ const Project = () => {
             bg-gradient-to-br from-[rgba(0,0,0,0.2)] to-[rgba(58,7,100,0.6)] w-[23vw] text-sm">
             <h1 className="text-2xl font-extrabold mb-4">CaroChat!</h1>
             <p>A Real time fullstack chatting app!</p>
-            <p className="w-[90%]">An app with a beautiful user interface. I made this app using the MERN stack, with real time chatting using Socket.io,
-                Zustand store managing, JSON Web token authentication and more... </p>
+            <p className="w-[90%]">An app with a beautiful user interface. I made this app using the MERN stack,
+                with Zustand store managing, JSON Web token authentication, real time chatting using Socket.io and more... </p>
             <p className="w-[90%] mt-4">
                 <a href="https://carochat-project-production.up.railway.app" target="_blank"
                     className="text-purple-400 font-bold hover:text-blue-400 active:underline mr-1">Visit Now!</a>
