@@ -16,6 +16,7 @@ const Project2 = () => {
             <div className="flex flex-col mt-6 items-center">
                 <div className="flex mt-3 justify-center">
                     <Image
+                        quality={60}
                         className="w-[46%]"
                         src='/images/perfumeSign.webp'
                         alt="not loaded"
@@ -23,6 +24,7 @@ const Project2 = () => {
                         height={100}
                     />
                     <Image
+                        quality={60}
                         className="w-[46%]"
                         src='/images/perfumeMenu.webp'
                         alt="not loaded"
@@ -31,6 +33,7 @@ const Project2 = () => {
                     />
                 </div>
                 <Image
+                    quality={60}
                     className="w-[70%]"
                     src='/images/perfume.webp'
                     alt="not loaded"

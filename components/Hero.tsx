@@ -44,7 +44,7 @@ const Hero = () => {
 
     }, []);
     return (
-        <main className="flex relative justify-center max-md:mt-12">
+        <main className="flex relative justify-center md:mt-20 max-md:mt-12">
             <section className="flex justify-center  items-center md:w-screen sticky">
                     <div className="h-10"></div>
             <div className="max-md:w-[80vw] w-full md:mt-12 flex pt-40 justify-around md:px-6 max-md:flex-col">

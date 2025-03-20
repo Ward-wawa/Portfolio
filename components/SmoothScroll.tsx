@@ -12,7 +12,7 @@ function SmoothScroll({children}: PropsWithChildren<{}>) {
             touchInertiaMultiplier:0.7,
             wheelMultiplier:0.8,
             syncTouch:true,
-            touchMultiplier:1.2,
+            touchMultiplier:2.4,
             anchors:true,
         }}>
             { children }

@@ -17,7 +17,7 @@ const Welcome = () => {
                 </p>
                 <div className="flex items-center justify-center mt-6 mb-6 flex-col">
                     <p className="mr-4 mb-4 max-md:mb-10"> This is a brief introduction that i made with :</p>
-                    <Image className="z-10 nextAnim" width={100} height={100} src="/images/next.webp" alt="img not loaded!"/>
+                    <Image quality={60} className="z-10 nextAnim" width={100} height={100} src="/images/next.webp" alt="img not loaded!"/>
                 </div>
                 <p className="triggerm max-md:leading-[2.5]">
                     This website will contain information about me and my capabilities as a web developer,
