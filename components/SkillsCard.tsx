@@ -62,7 +62,6 @@ const SkillsCard = () => {
                         start: "top 20%",
                         end: "bottom 10%",
                         scrub: 0.7,
-                        markers:true,
                     }
                 });
         })
@@ -101,13 +100,13 @@ const SkillsCard = () => {
                     max-md:-bottom-[22vh] scale-150 max-md:scale-90 rotate-[10deg] max-md:-right-20"
                     width={500}
                     height={500}
-                    src="/images/rid.webp" alt="image couldn't load" />
+                    src="/images/grid1.webp" alt="image couldn't load" />
                 <Image
                     className="absolute md:-bottom-10 md:-left-[25vw]
                     max-md:-bottom-[28vh] rotate-[-10deg] max-md:scale-50 max-md:-left-20"
                     width={300}
                     height={300}
-                    src="/images/rid2.webp" alt="image couldn't load" />
+                    src="/images/grid2.webp" alt="image couldn't load" />
             </div>
         </section>
     );

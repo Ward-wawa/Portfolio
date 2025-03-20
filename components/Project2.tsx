@@ -17,14 +17,14 @@ const Project2 = () => {
                 <div className="flex mt-3 justify-center">
                     <Image
                         className="w-[46%]"
-                        src='/images/p4.webp'
+                        src='/images/perfumeSign.webp'
                         alt="not loaded"
                         width={100}
                         height={100}
                     />
                     <Image
                         className="w-[46%]"
-                        src='/images/p3.webp'
+                        src='/images/perfumeMenu.webp'
                         alt="not loaded"
                         width={100}
                         height={100}
@@ -32,7 +32,7 @@ const Project2 = () => {
                 </div>
                 <Image
                     className="w-[70%]"
-                    src='/images/p1.webp'
+                    src='/images/perfume.webp'
                     alt="not loaded"
                     width={200}
                     height={200}

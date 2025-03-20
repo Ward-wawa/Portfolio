@@ -8,8 +8,11 @@ function SmoothScroll({children}: PropsWithChildren<{}>) {
     return (
         <ReactLenis root options={{
             duration:3,
+            lerp:0.06,
+            touchInertiaMultiplier:0.7,
+            wheelMultiplier:0.8,
             syncTouch:true,
-            touchMultiplier:1.5,
+            touchMultiplier:1.2,
             anchors:true,
         }}>
             { children }

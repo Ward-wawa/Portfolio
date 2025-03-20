@@ -123,7 +123,7 @@ const Contact = () => {
                 <p>Email: wardistitan@gmail.com</p>
                 <p>Mobile phone: +963986390582 </p>
             </div>
-            <Image src="/images/8.webp" alt="not loaded"
+            <Image src="/images/next.webp" alt="not loaded"
             width={100} height={100}
                    className="nextAnim2 absolute top-0 max-md:hidden"
             />
