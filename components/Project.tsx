@@ -10,7 +10,7 @@ const Project = () => {
             <p className="w-[90%]">An app with a beautiful user interface. I made this app using the MERN stack,
                 with Zustand store managing, JSON Web token authentication, real time chatting using Socket.io and more... </p>
             <p className="w-[90%] mt-4">
-                <a href="https://intense-hallie-wardabboudprojects-627ae2dc.koyeb.app/" target="_blank"
+                <a href="https://condemned-juliane-wardwardward-c0bbc149.koyeb.app/" target="_blank"
                     className="text-purple-400 font-bold hover:text-blue-400 active:underline mr-1">Visit Now!</a>
                 create your account and start chatting!</p>
             <div className="flex flex-col mt-6 items-center">
